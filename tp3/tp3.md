@@ -268,6 +268,15 @@ should be mode: "600" or more restrictive
 should be mode: "600" or more restrictive
 ```
 5.2.3 : 
+``` - Public key file: "/etc/ssh/ssh_host_ecdsa_key.pub" is mode
+"0644" should be mode: "644" or more restrictive
+ - Public key file: "/etc/ssh/ssh_host_ed25519_key.pub" is mode
+"0644" should be mode: "644" or more restrictive
+ - Public key file: "/etc/ssh/ssh_host_rsa_key.pub" is mode
+"0644" should be mode: "644" or more restrictive
+[root@localhost user]# ls -al /etc/ssh
+```
+5.2.4 : 
 
 
 
