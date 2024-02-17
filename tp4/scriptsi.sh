@@ -230,8 +230,6 @@ main () {
     DOT
     firewall
     fail2ban
-    Docker
-    usb
     selinux
     AIDE
     Client
